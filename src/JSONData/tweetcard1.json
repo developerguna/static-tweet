@@ -1,0 +1,57 @@
+[
+    {
+      "message": "About ReactJS",
+      "gravatar": "https://www.gravatar.com/avatar",
+      "author": {
+        "handle": "@Mr.Uinque",
+        "name": "Palguna Ganta"
+      },
+      "likes": 2,
+      "retweets": 1,
+      "timestamp": "2016-07-30 21:24:37"
+    },
+    {
+      "message": "About WebTech",
+      "gravatar": "https://www.gravatar.com/avatar",
+      "author": {
+        "handle": "@Mr.Know",
+        "name": "s areeb"
+      },
+      "likes": 1,
+      "retweets": 0,
+      "timestamp": "2019-07-30 11:24:37"
+    },
+    {
+      "message": "About BackEnd Development",
+      "gravatar": "https://www.gravatar.com/avatar",
+      "author": {
+        "handle": "@Backend Dev",
+        "name": "Dhana Shekar"
+      },
+      "likes": 1,
+      "retweets": 0,
+      "timestamp": "2017-06-20 11:24:37"
+    },
+    {
+      "message": "About Angular",
+      "gravatar":"https://www.gravatar.com/avatar",
+      "author": {
+        "handle": "@Mr.Thop",
+        "name": "areeb"
+      },
+      "likes": 3,
+      "retweets": 4,
+      "timestamp": "2020-01-30 11:24:37"
+    },
+    {
+      "message": "About Corona",
+      "gravatar": "https://www.gravatar.com/avatar",
+      "author": {
+        "handle": "@Mr.jeffa",
+        "name": "Nagaraj"
+      },
+      "likes": 0,
+      "retweets": 0,
+      "timestamp": "2020-05-13 0:24:37"
+    }
+  ]

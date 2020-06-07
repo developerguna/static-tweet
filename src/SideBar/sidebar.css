@@ -1,0 +1,57 @@
+
+
+    .sidebar
+{
+    display: grid;
+    grid-template-columns: 50px  1fr;
+}
+
+article
+{
+
+    display: grid;
+    grid-template-columns: 100px 1fr;
+}
+
+
+
+.sidebar .profileCard
+{
+    display: grid;
+grid-template-columns: repeat(2, 1fr);
+
+}
+
+aside,section
+{
+    margin: auto;
+}
+aside button{
+    border: solid 1px #aaaaaa;
+}
+.sidebar .profileCard
+{
+    
+    background-color: black;
+    color: #333;
+   
+}
+
+.layout .sidebarcontent
+{
+    display:grid;
+}
+
+
+.sidebar .profileCard header
+{
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+@media (min-width:769px) {
+.sidebar .profileCard header {
+
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+}

@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/*
+.FirstPage > div
+{
+display:grid;
+}
+
+.FirstPage .PageHeader
+{
+  grid-column: 1/4;
+}
+.FirstPage .navigation
+{
+  grid-column: 1/2;
+  display: grid;
+}
+*/

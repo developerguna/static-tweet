@@ -1,0 +1,98 @@
+.PageHeader {
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+    padding: 0 5vw;
+
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 9999999999999999999;
+}
+
+@media (max-width:769px) {
+    .PageHeader {
+        padding: 0 10vw;
+    }
+
+    .PageSearch {
+
+        right: calc(10vw);
+        top: 10px;
+        width: 40%;
+    }
+}
+
+#Header {
+    padding: 0 94px;
+    border: none;
+}
+
+.mainHeader {
+    display: flex;
+}
+
+.PageSearch {
+    position: absolute;
+    right: calc(5vw);
+    top: 10px;
+    padding: 7px 19px;
+    background-color: rebeccapurple;
+}
+
+.LoggedUser {
+
+    font-size: 16px;
+    color: blueviolet;
+    float: right;
+}
+
+img {
+    width: 100px;
+    height: 40px;
+}
+
+.navigation button {
+
+
+    border-bottom: solid 2px #aaaaaa;
+    margin: 5px;
+
+}
+
+.navigation button {
+    background: aquamarine;
+}
+
+.navigation {
+    padding: 0 5vw;
+
+}
+
+@media (max-width:769px) {
+
+
+    .navigation {
+        padding: 0 10vw;
+    }
+}
+
+.floatClear {
+    clear: both;
+}
+
+.Selected {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 50px 5vw;
+}
+
+@media (max-width:769px) {
+    .Selected {
+        padding: 0px 10vw;
+    }
+}
+
+
+.active {
+    color: blue;
+}

@@ -1,17 +1,29 @@
-import React from 'react';
+import React  from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import './utill.css';
+import {HeaderNav} from './Header/app'
+import LoginPage from './LoginForm/Login'
+import FooterNav from './Footer/app';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+
+const FirstPage = () =>
+{
+  return(
+    <div className="FirstPage">
+      <HeaderNav user="Palguna Ganta"/>
+      
+     <FooterNav /> 
+    </div>
+    
+    
+  )
+}
+
+ReactDOM.render(<FirstPage />, document.querySelector('#Page'));
+
+if (module.hot) {
+  module.hot.accept();
+}
+
