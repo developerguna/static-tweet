@@ -1,0 +1,14 @@
+.BasicForm {
+    background-color:#aaaa;
+}
+input{
+    float: right;
+}
+
+.BasicForm  div 
+{
+    padding-top: 20px;
+}
+.BasicForm button{
+    float: right;
+}
