@@ -1,8 +1,10 @@
 import React from 'react';
 import './table.css'
+import $ from 'jquery'
 
 
 class Header extends React.Component {
+   
    render() {
       return (
          <div>
@@ -30,6 +32,11 @@ const TableRow = ({data})  => {
 
 
 const TableHeader = ({ datah }) => {
+   let Stickytop = $(".PageHeader").outerHeight();
+   if($(window).width() > 600)
+   {
+   $(".tabledata thead th").css({"top":Stickytop});
+   }
    console.log(datah);
    return (
       <tr>
@@ -55,8 +62,9 @@ class Table extends React.Component {
    }
    render() {
       return (
-         <div>
+         <div id="table">
             <Header />
+            <div className="tablecontainer">
             <table className="tabledata">
                <thead>
                   <TableHeader datah={this.state.tableheader} />
@@ -66,6 +74,7 @@ class Table extends React.Component {
                      data={person} />)}
                </tbody>
             </table>
+            </div>
          </div>
       );
    }

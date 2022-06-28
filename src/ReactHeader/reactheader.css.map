@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,eAAe,CACf;EACI,OAAO,EAAC,IAAI;EACR,cAAc,EAAE,GAAG;CAK1B;;AARD,AAII,eAJW,CAIX,EAAE,CAAA;EAEE,MAAM,EAAE,EAAE;CACb",
+    "sources": [
+        "reactheader.scss"
+    ],
+    "names": [],
+    "file": "reactheader.css"
+}

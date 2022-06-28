@@ -1,0 +1,19 @@
+.Withauth button {
+  margin: 0 10px;
+  text-decoration: underline;
+  font-weight: bolder;
+  font-size: medium;
+  -webkit-text-decoration-color: red;
+          text-decoration-color: red;
+}
+
+.HomePagePortal {
+  margin: 50px auto;
+  text-align: center;
+}
+
+#WelcomeDesignLogo {
+  max-width: 600px;
+  margin: auto;
+}
+/*# sourceMappingURL=withauth.css.map */

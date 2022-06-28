@@ -1,0 +1,19 @@
+.reactHeaderNav {
+    display: flex;
+    flex-direction: row;
+
+    h3 {
+
+        margin: 10;
+    }
+
+    ul {
+        .UserLoggeddiv {
+            img {
+                width: 100px;
+                height: auto;
+                border-radius: 50px;
+            }
+        }
+    }
+}

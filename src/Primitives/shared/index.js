@@ -1,0 +1,1 @@
+export {default as shouldForwardProps} from './utils'

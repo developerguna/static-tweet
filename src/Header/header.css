@@ -1,98 +1,204 @@
 .PageHeader {
-
-    border-bottom: 1px solid rgba(0, 0, 0, 0.6);
-    padding: 0 5vw;
-
-    background-color: #fff;
-    position: sticky;
-    top: 0;
-    z-index: 9999999999999999999;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+  padding: 0 5vw;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 9999999999999999999;
 }
 
-@media (max-width:769px) {
-    .PageHeader {
-        padding: 0 10vw;
-    }
+@media (max-width: 769px) {
+  .PageHeader {
+    padding: 0 10vw;
+  }
 
-    .PageSearch {
-
-        right: calc(10vw);
-        top: 10px;
-        width: 40%;
-    }
+  .PageSearch {
+    right: calc(10vw);
+    width: 40%;
+  }
 }
 
 #Header {
-    padding: 0 94px;
-    border: none;
+  padding: 0 94px;
+  border: none;
 }
 
-.mainHeader {
-    display: flex;
-}
 
 .PageSearch {
-    position: absolute;
-    right: calc(5vw);
-    top: 10px;
-    padding: 7px 19px;
-    background-color: rebeccapurple;
+  position: absolute;
+  right: calc(5vw);
+  padding: 7px 19px;
+  background-color: rebeccapurple;
 }
 
 .LoggedUser {
-
-    font-size: 16px;
-    color: blueviolet;
-    float: right;
+  font-size: 14px;
+  color: blueviolet;
+  
+}
+.loggedusermain 
+{
+  margin-bottom: 0;
 }
 
-img {
-    width: 100px;
-    height: 40px;
+
+#react-logo {
+  width: 100px;
+  height: 40px;
 }
+
+
 
 .navigation button {
-
-
-    border-bottom: solid 2px #aaaaaa;
-    margin: 5px;
-
-}
-
-.navigation button {
-    background: aquamarine;
+  background: aquamarine;
 }
 
 .navigation {
-    padding: 0 5vw;
-
+  padding: 0 5vw;
 }
 
-@media (max-width:769px) {
-
-
-    .navigation {
-        padding: 0 10vw;
-    }
+@media (max-width: 769px) {
+  .navigation {
+    padding: 0 10vw;
+  }
 }
 
 .floatClear {
-    clear: both;
+  clear: both;
 }
 
 .Selected {
-    margin-top: 30px;
-    margin-bottom: 20px;
-    padding: 50px 5vw;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 50px 0;
 }
 
-@media (max-width:769px) {
-    .Selected {
-        padding: 0px 10vw;
-    }
+@media (max-width: 769px) {
+  .Selected {
+    padding: 0px;
+  }
 }
-
 
 .active {
-    color: blue;
+  color: blue;
 }
+
+.logoutuser {
+  cursor: pointer;
+}
+
+@media (max-width:600px)
+{
+div#react-logo ~ *
+{
+  display: inline-block;
+}
+.PageLogo
+{
+  display: inline-flex;
+}
+
+
+.burger-menu-icon {
+  cursor: pointer;
+  z-index: 999;
+  position: fixed;
+  right: 0rem;
+  top: 0;
+  background: rgba(55, 55, 55, 0.5);
+  padding: 1.2rem;
+  border-radius: 0% 0% 0% 150%;
+}
+
+.burger-menu-icon .line1 {
+  width: 15px;
+  height: 3px;
+  margin: 5px 0;
+  background: linear-gradient( 135deg, rgba(249, 105, 14, 1) 0%, rgb(255, 255, 255) 100% );
+}
+.burger-menu-icon .line2 {
+  width: 30px;
+  height: 3px;
+  cursor: pointer;
+  background: linear-gradient( 135deg, rgba(249, 105, 14, 1) 0%, rgb(255, 255, 255) 100% );
+}
+
+.burger-menu-icon .line3 {
+  width: 15px;
+  height: 3px;
+  margin: 5px 0;
+  margin-left: 15px;
+  background: linear-gradient( 135deg, rgba(249, 105, 14, 1) 0%, rgb(255, 255, 255) 100% );
+}
+
+.reactHeaderNav ul{
+  width: 16rem;
+    height: 80vh;
+    background-color: #222222;
+    position: fixed;
+    top: 0;
+    right: -26rem;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    justify-content: flex-start;
+    z-index: 998;
+    transition: all 650ms ease-in-out;
+}
+.pageGlobalNav#toggleActive  .reactHeaderNav ul{
+  right:0;
+
+}
+
+.burger-menu-icon#toggleActiveIcon
+{
+background: none;
+}
+
+
+.burger-menu-icon#toggleActiveIcon  .line1
+{
+  transform: rotate(-45deg) translate(-5px, 6px) scaleX(2);
+
+}
+
+
+.burger-menu-icon#toggleActiveIcon  .line2
+{
+  opacity: 0;
+
+}
+
+.burger-menu-icon#toggleActiveIcon  .line3
+{
+ 
+transform: rotate(45deg) translate(-5px, -6px) scaleX(2);
+margin-left: 0;
+
+
+}
+
+}
+
+@media (min-width:600px)
+{
+  
+.reactHeaderNav ul{
+  display:flex;
+  margin: 0;
+  padding: 0;
+}
+.reactHeaderNav ul li 
+{
+  margin: 0 10px;
+}
+.reactHeaderNav ul li:first-child
+{
+  margin: 0;
+}
+  #react-logo + div {
+    text-align: right;
+  }
+ 
+}
+

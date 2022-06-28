@@ -23,13 +23,13 @@ table.tabledata {
     color: white;
   }
 
-   .tabledata th {
-    
-    
+
+  .tabledata th {
     position: sticky;
     top: 65px;
-    z-index: 999999999999999999999999999;
 }
+
+
 td{
     white-space:normal;;
 }
@@ -37,4 +37,24 @@ td{
 td:hover{
   flex-shrink: 0;
   overflow: visible;
+}
+
+.tablecontainer
+{
+  box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.15);
+}
+
+
+@media (max-width:600px)
+{
+  .tabledata
+{
+  display:block;
+  overflow: auto;
+  height:500px;
+}
+.tabledata th
+{
+  top:0;
+}
 }

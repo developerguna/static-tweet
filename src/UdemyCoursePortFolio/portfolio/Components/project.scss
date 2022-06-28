@@ -1,0 +1,91 @@
+@font-face {
+    font-family: RobotoCondensed;
+    src: url(../assets/roboto-condensed.light.ttf);
+    font-weight: 800;
+}
+@font-face {
+    font-family: EconomicaBold;
+    src: url(../assets/economica-bold.ttf);
+}
+
+
+
+.udemycourse {
+    .Udemycontainer {
+        text-align: center;
+        font-size: 20px;
+        padding: 2.5%;
+        font-family: 'RobotoCondensed';
+
+        .UdemyWrapper {
+
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 40px;
+
+            @media (max-width:600px)
+            {
+                grid-template-columns: repeat(1, 1fr);  
+            }
+
+        }
+
+
+    
+
+    .profile {
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        font-family: 'EconomicaBold';
+    }
+
+
+    .title-fade-out {
+        opacity: 0;
+        animation-name: fade-out;
+        animation-duration: 2s;
+    }
+
+    .title-fade-in {
+        opacity: 100;
+        animation-name: fade-in;
+        animation-duration: 2s;
+    }
+
+    @keyframes fade-out {
+        from {
+            opacity: 100
+        }
+
+        to {
+            opacity: 0
+        }
+    }
+
+    @keyframes fade-in {
+        from {
+            opacity: 0
+        }
+
+        to {
+            opacity: 100
+        }
+    }
+}
+#portfoliotitle
+{
+    font-weight: bolder;
+   font-size: 1.5rem;
+   color:darkblue;
+}
+
+
+}

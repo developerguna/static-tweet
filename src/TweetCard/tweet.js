@@ -6,8 +6,7 @@ function Avatar(props) {
   return (
     <img alt="tweet-profilr-icon"
       src={props.hash}
-      className="avatar"
-      alt="avatar" />
+      className="avatar" />
   );
 }
 
@@ -70,7 +69,7 @@ const MoreOptionsButton = () => (
 const Tweet = (props) => {
   const itemdata = props.carddata;
   return (
-    <div className="TweetMain">{itemdata.map((item, i) => {
+    <div id="tweet" className="TweetMain">{itemdata.map((item, i) => {
       return (
         <div className="tweet">
 

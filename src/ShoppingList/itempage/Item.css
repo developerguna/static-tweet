@@ -1,9 +1,10 @@
 .Item {
-    display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #ccc;
     padding: 10px;
+
     }
+    
     .Item-image {
     width: 64px;
     height: 64px;

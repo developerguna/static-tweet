@@ -9,7 +9,8 @@ class Layout extends React.Component {
     render() {
         const { showSidebar } = this.state;
         return (
-            <div className="layout">
+           
+            <div className="layout" id="sidebar">
                 {showSidebar &&
                     <Sidebar
                         onHide={this.toggleSidebar}>

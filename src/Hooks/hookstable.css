@@ -1,8 +1,12 @@
-.hookstable tbody tr{
-    cursor: pointer;
-}
 .HooksConcept > div {
-    display: inline-flex;
-    margin: 5px;
-    border: solid 1px #aaaaaa;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 5px;
+  border: solid 1px #aaaaaa;
 }
+
+.HooksConcept .hookstable tbody tr {
+  cursor: pointer;
+}
+/*# sourceMappingURL=hookstable.css.map */

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAEI,SAFK,CAEL,MAAM,CACN;EACI,MAAM,EAAE,MAAM;EACd,eAAe,EAAE,SAAS;EAC1B,WAAW,EAAE,MAAM;EACnB,SAAS,EAAE,MAAM;EACjB,qBAAqB,EAAE,GAAG;CAC7B;;AAEL,AAAA,eAAe,CACf;EAEI,MAAM,EAAE,SAAS;EACjB,UAAU,EAAE,MAAM;CACrB;;AAGD,AAAA,kBAAkB,CAClB;EACI,SAAS,EAAE,KAAK;EAChB,MAAM,EAAE,IAAI;CACf",
+    "sources": [
+        "withauth.scss"
+    ],
+    "names": [],
+    "file": "withauth.css"
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAEI,aAFS,GAEP,GAAG,CAAC;EACN,OAAO,EAAE,WAAW;EACpB,MAAM,EAAE,GAAG;EACX,MAAM,EAAE,iBAAiB;CAC5B;;AAND,AASQ,aATK,CAOb,WAAW,CACP,KAAK,CACD,EAAE,CAAA;EACE,MAAM,EAAE,OAAO;CAClB",
+    "sources": [
+        "hookstable.scss"
+    ],
+    "names": [],
+    "file": "hookstable.css"
+}

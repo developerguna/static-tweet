@@ -1,14 +1,19 @@
-.BasicForm {
-    background-color:#aaaa;
-}
-input{
-    float: right;
+.BasicForm div {
+  padding-top: 20px;
 }
 
-.BasicForm  div 
-{
-    padding-top: 20px;
+.BasicForm form .ErrorMessage {
+  color: red;
 }
-.BasicForm button{
-    float: right;
+
+/*---------------------------------------------*/
+button {
+  outline: none !important;
+  border: none;
+  background: transparent;
 }
+
+button:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=basicform.css.map */

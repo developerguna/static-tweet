@@ -1,0 +1,29 @@
+
+.userLoggedProfilePage {
+    text-align: center;
+    margin: 10px auto;
+    .LoggedUserImage {
+        height: 200px;
+        width: 200px;
+        margin: auto;
+        border-radius: 100px;
+        @media screen and (max-width:600px) {
+            height: 100px;
+            width: 150px;
+            border-radius: 50px;
+        }
+    }
+    .modal
+    {
+        top:unset;
+    }
+    .modal-header {
+        background-color: #f7fafc;
+    }
+    .btn-danger {
+        color: #fff;
+        background-color: #4435dc6e;
+        border-color:unset;
+    }
+}
+

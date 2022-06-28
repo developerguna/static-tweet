@@ -12,19 +12,11 @@ code {
     monospace;
 }
 
-/*
-.FirstPage > div
+.PageHeader ~ div
 {
-display:grid;
+  padding:0 5vw;
 }
 
-.FirstPage .PageHeader
-{
-  grid-column: 1/4;
+img{
+  display: inline;
 }
-.FirstPage .navigation
-{
-  grid-column: 1/2;
-  display: grid;
-}
-*/

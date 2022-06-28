@@ -1,15 +1,19 @@
+.PageFooter {
+  background: black;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
 
-.PageFooter
-{
-    
-    background: black;
-    color: white;
-    width:100%;
-    padding: 0 94px;
-    text-align: center;
-    
+.PageFooter button {
+  color: Red;
 }
-.PageFooter button 
-{
-    color:Red;
+
+.PageFooter h1 {
+  font-size: 28px;
 }
+
+.PageFooter h2 {
+  font-size: 24px;
+}
+/*# sourceMappingURL=footer.css.map */

@@ -48,7 +48,7 @@ class ShoppingList extends React.Component {
       let cartItems = Object.keys(itemCounts).map(itemId => {
          // Find the item by its id
          var item = items.find(item =>
-            item.id === parseInt(itemId, 10)
+            item.id === parseInt(itemId, 10) 
          );
 
          
@@ -84,7 +84,7 @@ class ShoppingList extends React.Component {
    render() {
       let { activeTab } = this.state;
       return (
-         <div className="shopping-list shopping-App">
+         <div id="shopping" className="shopping-list shopping-App">
             <h1>Shopping List for {this.props.name}</h1>
             <Nav activeTab={activeTab} onTabChange={this.handleTabchange} cartDet={this.state.Cost} CartProducts={this.state.Products}/>
             <main className="App-content">

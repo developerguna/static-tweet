@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import './ItemPage.css';
 import Item from './Item.js';
 function ItemPage({ items, onAddToCart }) {
+    items.map(item => item.id) 
     return (
         <ul className="ItemPage-items">
             {items.map(item =>
@@ -16,7 +17,9 @@ function ItemPage({ items, onAddToCart }) {
                     </Item>
                     
                 </li>
-            )}
+            ) 
+        }
+        
         </ul>
     );
 }
@@ -28,3 +31,4 @@ ItemPage.propTypes =
 }
 
 export default ItemPage;
+

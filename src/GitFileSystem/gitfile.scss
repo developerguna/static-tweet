@@ -1,0 +1,33 @@
+.file-list {
+  font-family: Helvetica, sans-serif;
+  max-width: 600px;
+  color: #333;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+ 
+  td {
+    border-top: 1px solid #ccc;
+  }
+  .file-list-item {
+    .file-name {
+      padding: 4px;
+      max-width: 180px;
+    }
+
+    .file-icon {
+      width: 17px;
+      padding-left: 4px;
+      .fa-folder {
+        color: #508fca;
+      }
+    }
+
+    .commit-message {
+      max-width: 442px;
+      padding-left: 10px;
+      overflow: hidden;
+    }
+  }
+}
+

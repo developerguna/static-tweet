@@ -16,11 +16,8 @@ const Content = (props) => {
 const Profile = (props) => {
     const style3 =
     {
-       
-        padding: "15px",
-        textAlign: "center",
         display:'inline-block',
-        margin: '0 50px'
+        margin: '10px'
     }
     return (
         <div onClick={props.click} style={style3}>

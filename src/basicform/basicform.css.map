@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,UADM,CACN,GAAG,CACH;EACI,WAAW,EAAE,IAAI;CACpB;;AAJL,AAOM,UAPI,CAKN,IAAI,CAEF,aAAa,CACb;EACE,KAAK,EAAC,GAAG;CACV;;AAKP,iDAAiD;AACjD,AAAA,MAAM,CAAC;EACH,OAAO,EAAE,eAAe;EACxB,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,WAAW;CACxB;;AAED,AAAA,MAAM,AAAA,MAAM,CAAC;EACX,MAAM,EAAE,OAAO;CAChB",
+    "sources": [
+        "basicform.scss"
+    ],
+    "names": [],
+    "file": "basicform.css"
+}
